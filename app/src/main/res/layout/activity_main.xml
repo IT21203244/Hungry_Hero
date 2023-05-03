@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/c1_width"
+        android:layout_height="@dimen/c1_height"
+        app:cardCornerRadius="@dimen/c1_c_radius"
+        app:cardElevation="@dimen/c1_elevation"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="@dimen/i1_height"
+            android:layout_height="@dimen/i1_height"
+            android:contentDescription="@string/btn1_img"
+            app:srcCompat="@drawable/img1" />
+
+        <Button
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="@dimen/t1_m_bottom"
+            android:text="@string/btn1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/t1_t_size"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="@dimen/t1_w"
+        android:layout_height="@dimen/t1_h"
+        app:cardCornerRadius="@dimen/c2_c_r"
+        app:cardElevation="@dimen/c2_elevation"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/i3_h"
+            android:contentDescription="@string/btn2_img"
+            app:srcCompat="@drawable/img2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="25dp"
+            android:text="@string/btn2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tt_size"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
