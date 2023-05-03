@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cart</string>
+
+    <string name="proceed_button">Proceed to Payment</string>
+    <string name="bar_name">My Cart</string>
+    <string name="bar_name1">PList</string>
+    <string name="TomatoTExt">Tomato</string>
+    <string name="QuantityText">Quantity</string>
+    <string name="DhalText">Dhal</string>
+    <string name="PriceTExt">Price</string>
+
+</resources>

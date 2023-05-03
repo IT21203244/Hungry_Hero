@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="CartTextSize">20sp</dimen>
+    <dimen name="CartWidth">291dp</dimen>
+    <dimen name="CartHeight">33dp</dimen>
+    <dimen name="TomatoWidth">120dp</dimen>
+    <dimen name="TomatoTExtSize">14sp</dimen>
+    <dimen name="QuantityTextSize">14sp</dimen>
+    <dimen name="DhalWidth">119sp</dimen>
+</resources>

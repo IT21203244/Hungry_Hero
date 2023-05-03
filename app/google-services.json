@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760586210524",
+    "project_id": "hungryhero-d44b4",
+    "storage_bucket": "hungryhero-d44b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760586210524:android:cecd7b77dacd2ed24db819",
+        "android_client_info": {
+          "package_name": "com.example.hungryheropayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760586210524-8noe31ot9ae6n4jvkds89u4gp5ulnvko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv2VwkvjECquc-VzkLMEAmDnEptQIWauA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760586210524-8noe31ot9ae6n4jvkds89u4gp5ulnvko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
