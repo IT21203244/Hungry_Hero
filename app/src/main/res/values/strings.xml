@@ -9,4 +9,41 @@
     <string name="DhalText">Dhal</string>
     <string name="PriceTExt">Price</string>
 
+
+    <string name="bar_name100">Payment</string>
+    <string name="bar_name200">PList</string>
+    <string name="PaymentAddress">293/1 Y.S Silva Road, Yatiyana, Minuwangoda</string>
+    <string name="PaymnetContact">Card Details</string>
+    <string name="PaymentSummery">Summary</string>
+
+
+    <string name="bar_name400">Add Card Details</string>
+    <string name="i1">add_img</string>
+    <string name="t3">Enter 16-Digit Number</string>
+    <string name="t4">MM/YY</string>
+    <string name="t5">CVC</string>
+    <string name="btn1">Save Card</string>
+    <string name="CardQuote">Enter your card details :</string>
+
+    <string name="bar_name5">Add Card Details</string>
+    <string name="bar_name15">PList</string>
+    <string name="i15">add_img</string>
+    <string name="t35">Enter 16-Digit Number</string>
+    <string name="t45">MM/YY</string>
+    <string name="t55">CVC</string>
+    <string name="btn15">Save Card</string>
+    <string name="CardQuote5">Enter your card details :</string>
+
+    <string name="bar_name4">Cash On Delivery</string>
+    <string name="t34">Enter Your Name</string>
+    <string name="t44">NIC</string>
+    <string name="t54">Address</string>
+    <string name="t64">Mobile-No</string>
+    <string name="btn14">Save Details</string>
+    <string name="validdetails">Please Enter Your Name</string>
+    <string name="IDValue">Please Enter Your Id Number</string>
+
+    <string name="ib1">Edit</string>
+
+
 </resources>

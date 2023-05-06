@@ -15,5 +15,7 @@
     <color name="mid1">#e7da8e</color>
     <color name="end_color">#eeb02b</color>
 
+    <color name="darker_grey">#FF676363</color>
+
 
 </resources>

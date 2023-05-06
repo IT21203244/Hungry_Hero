@@ -12,6 +12,33 @@
         android:theme="@style/Theme.HungryHeroCart"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateCash"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteCash"
+            android:exported="false" />
+        <activity
+            android:name=".CardDetailsView"
+            android:exported="false" />
+        <activity
+            android:name=".CashOnDeliveryView"
+            android:exported="false" />
+        <activity
+            android:name=".AddCashOnDelivery"
+            android:exported="false" />
+        <activity
+            android:name=".CashOnDeliveryAdd"
+            android:exported="false" />
+        <activity
+            android:name=".AddCardDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AddCard"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentPortal"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

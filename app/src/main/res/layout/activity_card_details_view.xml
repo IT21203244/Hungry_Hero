@@ -1,0 +1,78 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".CardDetailsView">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/lwidth"
+        android:layout_height="@dimen/lheight"
+        android:background="@color/light_orange"
+        android:paddingTop="@dimen/ptop"
+        android:text="@string/bar_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tsize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="@dimen/c17w"
+        android:layout_height="@dimen/c17h"
+        android:background="@drawable/round_button_delete"
+        android:contentDescription="@string/ib1"
+        app:layout_constraintBottom_toTopOf="@+id/rview"
+        app:layout_constraintEnd_toStartOf="@+id/update"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.614"
+        app:srcCompat="@drawable/baseline_delete_24" />
+
+    <ImageView
+        android:id="@+id/update"
+        android:layout_width="@dimen/c17w"
+        android:layout_height="@dimen/c17h"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="104dp"
+        android:background="@drawable/round_button"
+        android:contentDescription="@string/ib1"
+        app:layout_constraintBottom_toTopOf="@+id/rview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.509"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/iw"
+        android:layout_height="@dimen/ih"
+        android:layout_marginStart="@dimen/ims"
+        android:layout_marginTop="@dimen/imt"
+        android:contentDescription="@string/bar_name1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/carddeleteview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

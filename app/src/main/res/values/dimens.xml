@@ -7,4 +7,147 @@
     <dimen name="TomatoTExtSize">14sp</dimen>
     <dimen name="QuantityTextSize">14sp</dimen>
     <dimen name="DhalWidth">119sp</dimen>
+
+
+    <dimen name="PaymentPage">16sp</dimen>
+    <dimen name="PaymentPageWidth">152dp</dimen>
+    <dimen name="PaymentMobile">16sp</dimen>
+
+
+    <dimen name="CardStart">12sp</dimen>
+    <dimen name="CardEnd">10sp</dimen>
+    <dimen name="Card2Start">12sp</dimen>
+    <dimen name="Card2End">10sp</dimen>
+    <dimen name="Card3Start">12sp</dimen>
+    <dimen name="Card3End">10sp</dimen>
+    <dimen name="CardPicWidth">358dp</dimen>
+    <dimen name="CardPicHeight">168dp</dimen>
+    <dimen name="CardQuoteString">14sp</dimen>
+
+
+    <dimen name="CardStart1">12sp</dimen>
+    <dimen name="CardEnd1">10sp</dimen>
+    <dimen name="Card2Start1">12sp</dimen>
+    <dimen name="Card2End1">10sp</dimen>
+    <dimen name="Card3Start1">12sp</dimen>
+    <dimen name="Card3End1">10sp</dimen>
+    <dimen name="CardPicWidth1">358dp</dimen>
+    <dimen name="CardPicHeight1">168dp</dimen>
+    <dimen name="CardQuoteString1">14sp</dimen>
+
+
+    <dimen name="EnterNameSize">20sp</dimen>
+    <dimen name="NICSize">20sp</dimen>
+    <dimen name="AddressSize">20sp</dimen>
+    <dimen name="MobileSize">20sp</dimen>
+    <dimen name="MobileStart">12sp</dimen>
+    <dimen name="MobileEnd">10sp</dimen>
+    <dimen name="AddressStart">12sp</dimen>
+    <dimen name="AddressEnd">10sp</dimen>
+    <dimen name="NicStart">12sp</dimen>
+    <dimen name="NicEnd">10sp</dimen>
+    <dimen name="NameStart">12sp</dimen>
+    <dimen name="NameEnd">10sp</dimen>
+    <dimen name="Image1">358dp</dimen>
+    <dimen name="image1height">168dp</dimen>
+
+
+    <dimen name="lwidth">412dp</dimen>
+    <dimen name="lheight">70dp</dimen>
+    <dimen name="ptop">14dp</dimen>
+    <dimen name="tsize">30sp</dimen>
+    <dimen name="iw">35dp</dimen>
+    <dimen name="ih">35dp</dimen>
+    <dimen name="ims">20dp</dimen>
+    <dimen name="imt">20dp</dimen>
+    <dimen name="lwid">410dp</dimen>
+    <dimen name="lhei">700dp</dimen>
+    <dimen name="c11w">392dp</dimen>
+    <dimen name="c11h">190dp</dimen>
+    <dimen name="c11me">9dp</dimen>
+    <dimen name="c11conrad">10dp</dimen>
+    <dimen name="c11conele">10dp</dimen>
+    <dimen name="c12w">121dp</dimen>
+    <dimen name="c12h">123dp</dimen>
+    <dimen name="c13ms">2d</dimen>
+    <dimen name="c13mb">112dp</dimen>
+    <dimen name="c13pl">5dp</dimen>
+    <dimen name="c13pt">3dp</dimen>
+    <dimen name="c13pr">5dp</dimen>
+    <dimen name="c1pb">3dp</dimen>
+    <dimen name="c13ts">18sp</dimen>
+    <dimen name="c14ms">2dp</dimen>
+    <dimen name="c14mb">75dp</dimen>
+    <dimen name="c14ts">20sp</dimen>
+    <dimen name="c15ms">19dp</dimen>
+    <dimen name="c15mb">40dp</dimen>
+    <dimen name="c15ts">20sp</dimen>
+    <dimen name="c15me">13dp</dimen>
+    <dimen name="c16mb">5dp</dimen>
+    <dimen name="c16">20sp</dimen>
+    <dimen name="c17w">50dp</dimen>
+    <dimen name="c17h">50dp</dimen>
+    <dimen name="c17ms" />
+    <dimen name="c17mss">145dp</dimen>
+    <dimen name="c17mb">10dp</dimen>
+    <dimen name="c18w">392dp</dimen>
+    <dimen name="c18h">190dp</dimen>
+    <dimen name="c18me">9dp</dimen>
+    <dimen name="c18conrad">10dp</dimen>
+    <dimen name="c18ele">10dp</dimen>
+    <dimen name="c19w">121dp</dimen>
+    <dimen name="c19h">123dp</dimen>
+
+
+    <dimen name="add_Product_Details">28sp</dimen>
+    <dimen name="t1_width">412dp</dimen>
+    <dimen name="t1_height">70dp</dimen>
+    <dimen name="t1_ptop">14dp</dimen>
+    <dimen name="ar1_width">35dp</dimen>
+    <dimen name="ar1_height">35dp</dimen>
+    <dimen name="i1_m_start">20dp</dimen>
+    <dimen name="i1_m_top">17dp</dimen>
+    <dimen name="i2_width">125dp</dimen>
+    <dimen name="i2_height">125dp</dimen>
+    <dimen name="i2_m_top">24dp</dimen>
+    <dimen name="t2_height">60dp</dimen>
+    <dimen name="t2_m_start">6dp</dimen>
+    <dimen name="t2_m_top">8dp</dimen>
+    <dimen name="t2_m_end">8dp</dimen>
+    <dimen name="t2_p_start">12sp</dimen>
+    <dimen name="t2_p_end">10sp</dimen>
+    <dimen name="t2_t_size">20sp</dimen>
+    <dimen name="t3_height">60dp</dimen>
+    <dimen name="t4_height">60dp</dimen>
+    <dimen name="t5_height">60dp</dimen>
+    <dimen name="t6_height">60dp</dimen>
+    <dimen name="b1_width">190dp</dimen>
+    <dimen name="b1_height">55dp</dimen>
+    <dimen name="b1_m_start">16dp</dimen>
+    <dimen name="b1_m_end">16dp</dimen>
+    <dimen name="b1_t_size">18sp</dimen>
+    <dimen name="t6_m_start">6dp</dimen>
+    <dimen name="t6_m_top">296dp</dimen>
+    <dimen name="t6_m_end">8dp</dimen>
+    <dimen name="t6_p_start">12sp</dimen>
+    <dimen name="t6_p_end">10sp</dimen>
+    <dimen name="t6_t_size">20sp</dimen>
+    <dimen name="t5_m_start">6dp</dimen>
+    <dimen name="t5m_start">224dp</dimen>
+    <dimen name="t5_m_end">8dp</dimen>
+    <dimen name="t5_p_start">12sp</dimen>
+    <dimen name="t5_p_end">10sp</dimen>
+    <dimen name="t5_t_size">20sp</dimen>
+    <dimen name="t4_m_start">6dp</dimen>
+    <dimen name="t4_m_top">152dp</dimen>
+    <dimen name="t4_m_end">8dp</dimen>
+    <dimen name="t4_p_start">12sp</dimen>
+    <dimen name="t4_p_end">10sp</dimen>
+    <dimen name="t4_t_size">20sp</dimen>
+    <dimen name="t3_m_start">6dp</dimen>
+    <dimen name="t3m_start">80dp</dimen>
+    <dimen name="t3_m_end">8dp</dimen>
+    <dimen name="t3_p_start">12sp</dimen>
+    <dimen name="t3_p_end">10sp</dimen>
+    <dimen name="t3_t_size">20sp</dimen>
 </resources>
