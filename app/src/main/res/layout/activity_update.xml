@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:id="@+id/textViewdt"
+        android:layout_width="@dimen/t1_width"
+        android:layout_height="@dimen/t1_height"
+        android:background="@color/light_orange"
+        android:paddingTop="@dimen/t1_ptop"
+        android:text="Update Product"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/add_Product_Details"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/typeboxu1"
+            android:padding="16dp"
+            android:hint="Enter Product Name"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_edittext"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/typeboxu2"
+            android:padding="16dp"
+            android:hint="Enter Product Price"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_edittext"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/typeboxu3"
+            android:padding="16dp"
+            android:hint="Enter Product Qty"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_edittext"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/typeboxu4"
+            android:padding="16dp"
+            android:hint="Enter Offer"
+            android:gravity="start|center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_edittext"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/ubutton"
+            android:padding="12dp"
+            android:hint="UPDATE"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold|italic"
+            android:textSize="25dp"
+            android:background="@drawable/update_button"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

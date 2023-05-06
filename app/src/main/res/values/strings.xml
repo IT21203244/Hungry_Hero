@@ -2,83 +2,80 @@
     <string name="app_name">GroceryAdd</string>
 
 
-        <string name="btn1">Product List</string>
-        <string name="btn2">Add Product</string>
-        <string name="btn1_img">List</string>
-        <string name="btn2_img">Add</string>
+    <string name="btn1">Product List</string>
+    <string name="btn2">Add Product</string>
+    <string name="btn1_img">List</string>
+    <string name="btn2_img">Add</string>
 
-        <string name="app_name1">ProductList1</string>
-        <string name="bar_name">Product List</string>
-        <string name="bar_name1">PList</string>
-        <string name="scroll">Scroll</string>
-        <string name="i1">Bc</string>
-        <string name="ib1">Edit</string>
-        <string name="t1">15% off</string>
-        <string name="t2">Broccoli</string>
-        <string name="t3">Rs.2,990.00</string>
-        <string name="t4">1 Kg</string>
+    <string name="app_name1">ProductList1</string>
+    <string name="bar_name">Product List</string>
+    <string name="bar_name1">PList</string>
+    <string name="scroll">Scroll</string>
+    <string name="i1">Bc</string>
+    <string name="ib1">Edit</string>
+    <string name="t1">15% off</string>
+    <string name="t2">Broccoli</string>
+    <string name="t3">Rs.2,990.00</string>
+    <string name="t4">1 Kg</string>
 
-        <string name="i2">Banana</string>
-        <string name="ib2">Ed1</string>
-        <string name="t12">5% off</string>
-        <string name="t22">Banana</string>
-        <string name="t32">Rs.295.00</string>
-        <string name="t42">1 Kg</string>
+    <string name="i2">Banana</string>
+    <string name="ib2">Ed1</string>
+    <string name="t12">5% off</string>
+    <string name="t22">Banana</string>
+    <string name="t32">Rs.295.00</string>
+    <string name="t42">1 Kg</string>
 
-        <string name="i3">Meat</string>
-        <string name="ib3">E1</string>
-        <string name="t13">10% off</string>
-        <string name="t23">Mutton</string>
-        <string name="t33">Rs.3,295.00</string>
-        <string name="t43">500 g</string>
+    <string name="i3">Meat</string>
+    <string name="ib3">E1</string>
+    <string name="t13">10% off</string>
+    <string name="t23">Mutton</string>
+    <string name="t33">Rs.3,295.00</string>
+    <string name="t43">500 g</string>
 
-        <string name="i4">Meat</string>
-        <string name="ib4">e2</string>
-        <string name="t14">5% off</string>
-        <string name="t24">Full Cream Milk Powder</string>
-        <string name="t34">Rs.395.00</string>
-        <string name="t44">500 g</string>
+    <string name="i4">Meat</string>
+    <string name="ib4">e2</string>
+    <string name="t14">5% off</string>
+    <string name="t24">Full Cream Milk Powder</string>
+    <string name="t34">Rs.395.00</string>
+    <string name="t44">500 g</string>
 
-        <string name="i5">Beverage</string>
-        <string name="ib5">ed3</string>
-        <string name="t15">15% off</string>
-        <string name="t25">Apple Juice</string>
-        <string name="t35">Rs.1,350.00</string>
-        <string name="t45">1 L</string>
-        <string name="c15">20sp</string>
-
-
+    <string name="i5">Beverage</string>
+    <string name="ib5">ed3</string>
+    <string name="t15">15% off</string>
+    <string name="t25">Apple Juice</string>
+    <string name="t35">Rs.1,350.00</string>
+    <string name="t45">1 L</string>
+    <string name="c15">20sp</string>
 
 
-        <string name="app_name2">add_product</string>
-        <string name="bar_name11">Add Product Details</string>
-        <string name="bar_name12">PList</string>
+    <string name="app_name2">add_product</string>
+    <string name="bar_name11">Add Product Details</string>
+    <string name="bar_name12">PList</string>
 
-        <string name="i11">add_img</string>
-        <string name="t123">Product Category</string>
-        <string name="text1">Enter Product Category</string>
-        <string name="t234">Enter Product Name</string>
-        <string name="t345">Units of Product</string>
-        <string name="t456">Unit Price</string>
-        <string name="t5">Offers</string>
+    <string name="i11">add_img</string>
+    <string name="t123">Product Category</string>
+    <string name="text1">    Category</string>
+    <string name="t234">    Product Name</string>
+    <string name="t345">    Units/ Qty</string>
+    <string name="t456">    Unit Price</string>
+    <string name="t5">    Offers</string>
 
-        <string name="btn11">Add Product</string>
+    <string name="btn11">Add Product</string>
 
 
+    <string name="app_name22">addPexamples</string>
+    <string name="bar_name22">Edit Product Details</string>
+    <string name="bar_name122">PList</string>
+    <string name="s_view">Scroll View</string>
 
-        <string name="app_name22">addPexamples</string>
-        <string name="bar_name22">Edit Product Details</string>
-        <string name="bar_name122">PList</string>
-        <string name="s_view">Scroll View</string>
+    <string name="iex1">add_img</string>
+    <string name="textEx1">Product Category</string>
+    <string name="tEx2">Enter Product Name</string>
+    <string name="tEx3">Units of Product</string>
+    <string name="tEx4">Unit Price</string>
+    <string name="tEx5">Offers</string>
 
-        <string name="iex1">add_img</string>
-        <string name="textEx1">Product Category</string>
-        <string name="tEx2">Enter Product Name</string>
-        <string name="tEx3">Units of Product</string>
-        <string name="tEx4">Unit Price</string>
-        <string name="tEx5">Offers</string>
-
-        <string name="btnEx1">Update</string>
-        <string name="btnEx2">Remove</string>
+    <string name="btnEx1">Update</string>
+    <string name="btnEx2">Remove</string>
 
 </resources>

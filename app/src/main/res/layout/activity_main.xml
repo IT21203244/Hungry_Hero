@@ -19,7 +19,7 @@
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="@dimen/i1_height"
+            android:layout_width="@dimen/i1_width"
             android:layout_height="@dimen/i1_height"
             android:contentDescription="@string/btn1_img"
             app:srcCompat="@drawable/img1" />

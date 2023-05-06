@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="t2_ems">16</integer>
+    <integer name="t6_ems">16</integer>
+    <integer name="t5_ems">16</integer>
+    <integer name="t4_ems">16</integer>
+    <integer name="t3_ems">16</integer>
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".AddP">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/t1_width"
+        android:layout_height="@dimen/t1_height"
+        android:background="@color/light_orange"
+        android:paddingTop="@dimen/t1_ptop"
+        android:text="@string/bar_name11"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/add_Product_Details"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/ar1_width"
+        android:layout_height="@dimen/ar1_height"
+        android:layout_marginStart="@dimen/i1_m_start"
+        android:layout_marginTop="@dimen/i1_m_top"
+        android:contentDescription="@string/bar_name1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/i2_width"
+        android:layout_height="@dimen/i2_height"
+        android:layout_marginTop="@dimen/i2_m_top"
+        android:contentDescription="@string/i1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/baseline_add_photo_alternate_24" />
+
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/t2_height"
+        android:layout_marginStart="@dimen/t2_m_start"
+        android:layout_marginTop="@dimen/t2_m_top"
+        android:layout_marginEnd="@dimen/t2_m_end"
+        android:background="@drawable/admin_input"
+        android:ems="@integer/t2_ems"
+        android:drawableStart="@drawable/baseline_category_24"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_down_24"
+        android:drawablePadding="10dp"
+        android:hint="@string/text1"
+        android:inputType="textCapSentences|textMultiLine"
+        android:paddingStart="@dimen/t2_p_start"
+        android:paddingEnd="@dimen/t2_p_end"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/t2_t_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/t3_height"
+        android:layout_marginStart="@dimen/t3_m_start"
+        android:layout_marginTop="@dimen/t3m_start"
+        android:layout_marginEnd="@dimen/t3_m_end"
+        android:autofillHints="name"
+        android:background="@drawable/admin_input"
+        android:ems="@integer/t3_ems"
+        android:drawableStart="@drawable/baseline_text_fields_24"
+        android:drawablePadding="10dp"
+        android:hint="@string/t234"
+        android:inputType="text"
+        android:paddingStart="@dimen/t3_p_start"
+        android:paddingEnd="@dimen/t3_p_end"
+        android:textSize="@dimen/t3_t_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/t4_height"
+        android:layout_marginStart="@dimen/t4_m_start"
+        android:layout_marginTop="@dimen/t4_m_top"
+        android:layout_marginEnd="@dimen/t4_m_end"
+        android:background="@drawable/admin_input"
+        android:ems="@integer/t4_ems"
+        android:drawableStart="@drawable/baseline_attach_money_24"
+        android:drawablePadding="10dp"
+        android:hint="@string/t456"
+        android:inputType="text"
+        android:paddingStart="@dimen/t4_p_start"
+        android:paddingEnd="@dimen/t4_p_end"
+        android:textSize="@dimen/t4_t_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/t5_height"
+        android:layout_marginStart="@dimen/t5_m_start"
+        android:layout_marginTop="@dimen/t5m_start"
+        android:layout_marginEnd="@dimen/t5_m_end"
+        android:background="@drawable/admin_input"
+        android:ems="@integer/t5_ems"
+        android:drawableStart="@drawable/baseline_text_fields_24"
+        android:drawablePadding="10dp"
+        android:hint="@string/t345"
+        android:inputType="text"
+        android:paddingStart="@dimen/t5_p_start"
+        android:paddingEnd="@dimen/t5_p_end"
+        android:textSize="@dimen/t5_t_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/t6_height"
+        android:layout_marginStart="@dimen/t6_m_start"
+        android:layout_marginTop="@dimen/t6_m_top"
+        android:layout_marginEnd="@dimen/t6_m_end"
+        android:background="@drawable/admin_input"
+        android:ems="@integer/t6_ems"
+        android:drawableStart="@drawable/baseline_text_fields_24"
+        android:drawablePadding="10dp"
+        android:hint="@string/t5"
+        android:inputType="text"
+        android:paddingStart="@dimen/t6_p_start"
+        android:paddingEnd="@dimen/t6_p_end"
+        android:textSize="@dimen/t6_t_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/b1_width"
+        android:layout_height="@dimen/b1_height"
+        android:layout_marginStart="@dimen/b1_m_start"
+        android:layout_marginEnd="@dimen/b1_m_end"
+        android:background="@drawable/button_background"
+        android:text="@string/btn11"
+        android:textColor="@color/white"
+        android:textSize="@dimen/b1_t_size"
+        android:textStyle="bold"
+        android:elevation="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
