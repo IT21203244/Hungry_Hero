@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="usernamewidth">219dp</dimen>
+    <dimen name="mainimagewidth">360dp</dimen>
+    <dimen name="mainimagewidth2">383dp</dimen>
+    <dimen name="banancontainerwidth">115dp</dimen>
+    <dimen name="favoriteiconwidth">59dp</dimen>
+    <dimen name="settingbuttonmarginstart">25dp</dimen>
+
+    <dimen name="buttonwidth">142dp</dimen>
+    <dimen name="buttonheight">48dp</dimen>
+
+
+    <dimen name="backbuttonwidth">35dp</dimen>
+    <dimen name="backbuttonheight">35dp</dimen>
+    <dimen name="stawberrywidth">198dp</dimen>
+    <dimen name="stawberryhight">51dp</dimen>
+    <dimen name="imagewidth">382dp</dimen>
+    <dimen name="imageheight">243dp</dimen>
+    <dimen name="minusbuttonwidth">35dp</dimen>
+    <dimen name="minusbuttonheight">35dp</dimen>
+    <dimen name="descriptionwidth">399dp</dimen>
+    <dimen name="descriptionheight">121dp</dimen>
+    <dimen name="pricelkr">110dp</dimen>
+    <dimen name="pricelkr2">47dp</dimen>
+
+
+    <dimen name="arrawbackwidth">35dp</dimen>
+    <dimen name="arrowbackheight">35dp</dimen>
+    <dimen name="fantatextwidth">166dp</dimen>
+    <dimen name="fantatextheight">43dp</dimen>
+    <dimen name="eggplantwidth">166dp</dimen>
+    <dimen name="blackpapertextheight">44dp</dimen>
+</resources>
