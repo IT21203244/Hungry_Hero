@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mid1"
+    android:contentDescription="@string/sup"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="60dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/login_input_border"
+        android:gravity="center_horizontal"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Login"
+            android:padding="20dp"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            android:textColor="#333333" />
+
+        <EditText
+            android:id="@+id/email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text_border"
+            android:padding="15dp"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_border"
+            android:padding="15dp"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_rounded_bg"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

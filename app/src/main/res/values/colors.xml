@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="light_orange">#ffffbb33</color>
+    <color name = "holo_orange_dark">#AA6807</color>
 
     <color name="start_color">#eae4c3</color>
     <color name="mid1">#e7da8e</color>
@@ -16,4 +17,5 @@
 
     <color name="darker_grey">#FF676363</color>
     <color name="darker_blue">#003060</color>
+    <color name="navbar_selected_icon">#0A11A8</color>
 </resources>

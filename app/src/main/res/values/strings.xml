@@ -78,4 +78,63 @@
     <string name="btnEx1">Update</string>
     <string name="btnEx2">Remove</string>
 
+
+    <string name="name">Gaveesha Wijewardana</string>
+    <string name="offer1">20% off</string>
+    <string name="categorytext">Categories</string>
+    <string name="seealltext1">See All</string>
+    <string name="cat1">Vegetables</string>
+    <string name="cat2">Fruit</string>
+    <string name="cat3">Meat</string>
+    <string name="cat4">Spices</string>
+    <string name="cat5">Soft Drinks</string>
+    <string name="bestsellingtext">Best selling</string>
+    <string name="seealltext2">See All</string>
+    <string name="offer2">10% Off</string>
+    <string name="offer3">25% Off</string>
+    <string name="offer4">5% Off</string>
+
+
+    <string name="pricedescription">"800 LKR per "</string>
+    <string name="descriptiontext">Description</string>
+    <string name="descriptiontext1">The garden strawberry (Fragaria ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.</string>
+    <string name="pricetext2">Price</string>
+    <string name="amounttext">800 LKR</string>
+    <string name="addtocarttext">ADD TO CART</string>
+
+
+    <string name="brocolitext">Broccoli</string>
+    <string name="pricetext1">300 LKR per kg</string>
+    <string name="descriptiontext2">Description</string>
+    <string name="descriptiontext3">Broccoli is an edible green plant in the cabbage family whose large flowering head, stalk and small associated leaves are eaten as a vegetable. Broccoli is classified in the Italica cultivar group of the species Brassica oleracea.</string>
+    <string name="pricetext4">Price</string>
+    <string name="pricetext3">300 LKR</string>
+    <string name="carttext">ADD TO CART</string>
+
+
+    <string name="chickentext">Chicken 100g            Rs.120.00</string>
+    <string name="bestdealstext">Best Deals</string>
+    <string name="offer12">13% off</string>
+    <string name="offer21">5% off</string>
+    <string name="chococookietext">Choco-Cookie 50g  Rs.150.00</string>
+    <string name="offer31">20% off</string>
+    <string name="fantatext">Fanta 200ml             Rs.300.00</string>
+    <string name="offer41">50% off</string>
+    <string name="eggplanttext">Eggplant 100g        Rs.80.00</string>
+    <string name="offer5">8% off</string>
+    <string name="blackpapertext">Blackpaper 100g  Rs.200.00</string>
+    <string name="offer6">16% off</string>
+    <string name="thilapiyatext">Thilapiya 100g       Rs.200.00</string>
+
+    <string name="sup">This is a linear layout</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
 </resources>

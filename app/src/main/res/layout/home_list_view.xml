@@ -76,6 +76,19 @@
             android:textSize="@dimen/c16"
             android:textStyle="normal" />
 
+        <ImageView
+            android:id="@+id/cbutton"
+            android:layout_width="62dp"
+            android:layout_height="54dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="86dp"
+            android:background="@color/mid1"
+            android:contentDescription="cart"
+            android:elevation="4dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/baseline_shopping_cart_24" />
+
 
     </RelativeLayout>
 

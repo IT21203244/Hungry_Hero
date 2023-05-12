@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mid1"
+    android:orientation="vertical"
+    android:contentDescription="@string/sup"
+    tools:context=".Signin">
+
+    <TextView
+        android:id="@+id/titlesup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="Sign Up to Your Account"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/supmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/suppwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/supfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="First Name"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/suplname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/suppn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/supadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Address"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/supbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_backgroundf"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="Sign Up"
+        android:textColor="@color/darker_grey"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+            android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/signin_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you have an account? "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/signin_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="20sp"
+            android:textColor="@color/holo_orange_dark"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+
+    <!-- Add onClick attribute to the root layout of your Sign Up activity -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:contentDescription="Linear Layout"
+        android:onClick="onSigninLinkClicked">
+
+        <!-- rest of your Sign Up layout -->
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
