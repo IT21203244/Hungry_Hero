@@ -8,36 +8,42 @@
 
     <Button
         android:id="@+id/btnUpdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/light_orange"
         android:text="Update"
-        app:layout_constraintEnd_toStartOf="@+id/btnDelete"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:textColor="@color/colorPrimaryDark"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
 
     <Button
         android:id="@+id/btnDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/light_orange"
         android:text="Delete"
+        android:textColor="@color/black"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnUpdate"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout" />
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        android:orientation="vertical">
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <LinearLayout
@@ -92,8 +98,6 @@
         </LinearLayout>
 
 
-
-
         <LinearLayout
             android:id="@+id/contact_lin"
             android:layout_width="match_parent"
@@ -144,7 +148,7 @@
 
         <LinearLayout
 
-            android:id = "@+id/age_lin"
+            android:id="@+id/age_lin"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
@@ -396,10 +400,6 @@
 
 
         </LinearLayout>
-
-
-
-
 
 
     </LinearLayout>

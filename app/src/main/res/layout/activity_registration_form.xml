@@ -90,9 +90,12 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/light_orange"
         android:text="Register"
+        android:textColor="@color/colorPrimaryDark"
+        app:cornerRadius="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
