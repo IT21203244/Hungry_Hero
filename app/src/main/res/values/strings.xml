@@ -50,5 +50,6 @@
     <string name="empname">Emp Name</string>
     <string name="Register">Register</string>
     <string name="Viewdata">ViewData</string>
+    <string name="deliverypartner">Delivery Partner</string>
 
 </resources>

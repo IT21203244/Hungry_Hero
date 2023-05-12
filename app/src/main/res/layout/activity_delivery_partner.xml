@@ -26,7 +26,7 @@
         android:id="@+id/button4"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:backgroundTint="@color/end_color"
+        android:backgroundTint="@color/light_orange"
         android:text="@string/Viewdata"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
@@ -37,4 +37,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.716" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="@string/deliverypartner"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
 </androidx.constraintlayout.widget.ConstraintLayout>
