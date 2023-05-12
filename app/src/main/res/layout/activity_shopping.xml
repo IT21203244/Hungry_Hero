@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ShoppingActivity">
+
+    <TextView
+        android:id="@+id/hometitle"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="@color/light_orange"
+        android:paddingTop="14dp"
+        android:text="HungryHero"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/harrow"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="bar_namehome1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagehome1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hometitle">
+
+        <EditText
+            android:id="@+id/search_bar1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bar_background"
+            android:hint="Search"
+            android:elevation="8dp"
+            android:layout_marginStart="14dp"
+            android:inputType="text"
+            android:paddingStart="32dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="15dp"
+            android:textColorHint="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imagehome1"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="144dp"
+        android:contentDescription="bar_namehome"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homemain" />
+
+    <ImageView
+        android:id="@+id/item1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="bar_namehome"
+        android:elevation="20dp"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagehome1"
+        app:srcCompat="@drawable/milk" />
+
+    <TextView
+        android:id="@+id/item1des"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="80dp"
+        android:paddingTop="14dp"
+        android:text="Chocolate Milk"
+        android:textAlignment="center"
+        android:textColor="@color/darker_grey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/item1p"
+        android:layout_width="436dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="340dp"
+        android:paddingTop="14dp"
+        android:text="LKR.240.00"
+        android:textAlignment="center"
+        android:textColor="@color/darker_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/add_to_cart_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/add_to_cart_button_background"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="Add to Cart"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item1p" />
+
+    <TextView
+        android:id="@+id/homenav"
+        android:layout_width="412dp"
+        android:layout_height="70dp"
+        android:background="@color/mid1"
+        android:layout_marginTop="660dp"
+        android:paddingTop="14dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iconHome"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="680dp"
+        android:contentDescription="bar_namehome2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/iconCart"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="680dp"
+        android:contentDescription="bar_namehome3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_shopping_cart_24" />
+
+    <ImageView
+        android:id="@+id/iconDelivery"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="680dp"
+        android:contentDescription="bar_namehome4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_directions_car_24" />
+
+    <ImageView
+        android:id="@+id/iconSetting"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="680dp"
+        android:contentDescription="bar_namehome5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_settings_24" />
+
+    <ImageView
+        android:id="@+id/iconLocation"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="680dp"
+        android:contentDescription="bar_namehome6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_location_on_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

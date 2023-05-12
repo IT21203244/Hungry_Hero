@@ -8,16 +8,12 @@ import androidx.recyclerview.widget.RecyclerView
 
 class DeliveryAdapter (private val usersList: ArrayList<DeliveryViewData>):RecyclerView.Adapter<DeliveryAdapter.MyViewHolder>() {
 
-
-
-
         class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
             val textView244: TextView = itemView.findViewById(R.id.textView244)
             val textView3:TextView = itemView.findViewById(R.id.textView3)
             val textView4:TextView = itemView.findViewById(R.id.textView4)
             val textView5:TextView = itemView.findViewById(R.id.textView5)
-
 
         }
 

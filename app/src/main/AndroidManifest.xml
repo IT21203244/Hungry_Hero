@@ -12,6 +12,9 @@
         android:theme="@style/Theme.HungryHeroCart"
         tools:targetApi="31">
         <activity
+            android:name=".ShoppingActivity"
+            android:exported="false" />
+        <activity
             android:name=".UpdateCash"
             android:exported="false" />
         <activity
