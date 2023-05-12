@@ -398,7 +398,8 @@
             android:layout_height="41dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/baseline_favorite_24" />
+            android:src="@drawable/baseline_favorite_24"
+            app:srcCompat="@drawable/baseline_time_to_leave_24" />
 
         <ImageView
             android:id="@+id/imageView17"

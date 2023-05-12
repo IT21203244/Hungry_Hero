@@ -11,10 +11,6 @@ class Topdeals : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_topdeals)
 
-        val imageView4 = findViewById<ImageView>(R.id.imageView)
-        imageView4.setOnClickListener {
-            val intent = Intent(this, LogoPage::class.java)
-            startActivity(intent)
-        }
+
     }
 }
