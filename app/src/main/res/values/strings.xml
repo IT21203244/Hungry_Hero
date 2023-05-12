@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hungry Hero</string>
+    <string name="update_stock">Update Feedbacks</string>
+    <string name="requested_stock">View Feedbacks</string>
+    <string name="add_new_stock">Add New Feedback</string>
+    <string name="available_stock">Delete Feedbacks</string>
+    <string name="stock">Feedbacks</string>
+    <string name="stock_type">Name</string>
+    <string name="quantity">E-mail</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="stock_name">Name</string>
+    <string name="availabe_stock">View Feedbacks</string>
+    <string name="price">Comment</string>
+    <string name="requested_stock_h">Feedbacks</string>
+</resources>

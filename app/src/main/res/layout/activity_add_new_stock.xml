@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AddNewStock">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="@string/add_new_stock"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearColumnconfirmyourpa"
+        android:layout_width="383dp"
+        android:layout_height="326dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/StockName"
+            style="@style/etSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/_47pxv"
+            android:background="@drawable/rectangle_bg_bluegray_100_radius_10"
+            android:ellipsize="end"
+            android:hint="@string/stock_name"
+            android:inputType="text"
+            android:paddingStart="@dimen/_22pxh"
+            android:paddingTop="@dimen/_7pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_6pxv"
+            android:singleLine="true"
+            android:text=""
+            android:textColorHint="@color/black_900"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/Qty"
+            style="@style/etSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/_27pxv"
+            android:background="@drawable/rectangle_bg_bluegray_100_radius_10"
+            android:ellipsize="end"
+            android:hint="@string/quantity"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_21pxh"
+            android:paddingTop="@dimen/_7pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_6pxv"
+            android:singleLine="true"
+            android:text=""
+            android:textColorHint="@color/black_900"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/Price"
+            style="@style/etSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/_27pxv"
+            android:background="@drawable/rectangle_bg_bluegray_100_radius_10"
+            android:ellipsize="end"
+            android:hint="@string/price"
+            android:inputType="text"
+            android:paddingStart="@dimen/_21pxh"
+            android:paddingTop="@dimen/_6pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_7pxv"
+            android:singleLine="true"
+            android:text=""
+            android:textColorHint="@color/black_900"
+            tools:ignore="Autofill" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btAdd"
+        style="@style/btnSolidRounded_2"
+        android:layout_width="342dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="76dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_11pxv"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingBottom="@dimen/_11pxv"
+        android:singleLine="true"
+        android:text="@string/add"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

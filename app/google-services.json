@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "492208072125",
+    "project_id": "healthwayz-c4c0f",
+    "storage_bucket": "healthwayz-c4c0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492208072125:android:ab1bb42b6ba8a310a29ed4",
+        "android_client_info": {
+          "package_name": "com.example.healthwayz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492208072125-9sdicar69iu0k1qvnqov0fsmecpbfcda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0mb3mPY4k4d8yz4mmlyHgZ0j8p423EPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492208072125-9sdicar69iu0k1qvnqov0fsmecpbfcda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
